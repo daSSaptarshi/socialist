@@ -1,0 +1,11 @@
+<div class="navbar">
+    <div class="app_name">Socia <div>L</div>ist</div>
+    <div class="options">
+        <div class="username">Welcome, {{username}}</div>
+        <div class="links">
+            <span routerLink="/home" routerLinkActive="active" *ngIf="isAdmin == 'true'">Home</span>
+            <span routerLink="/approval" routerLinkActive="active" *ngIf="isAdmin == 'true'">Posts Pending For Approval</span>
+            <span (click)="signout()">Sign Out</span>
+        </div>
+    </div>
+</div>

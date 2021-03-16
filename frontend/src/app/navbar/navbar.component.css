@@ -1,0 +1,64 @@
+.navbar
+{
+    height: 80px;
+    box-shadow: 0px 5px 15px -2px #afafaf;
+    width: 90%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: var(--primary-light);
+    margin: 30px 5% 0 5%;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app_name
+{
+    font-size: 30px;
+    color: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app_name div
+{
+    font-size: 60px;
+    transform: rotate(40deg) scaleX(-1);
+    padding: 0 18px 9px 13px;;
+}
+
+.options
+{
+    display: flex;
+    align-items: center;
+}
+
+.username
+{
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    border-right: 1px solid white;
+    padding-right: 20px;
+}
+
+.links span
+{
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 15px;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+}
+
+.links span.active
+{
+    /* color: var(--primary-light); */
+    font-size: 17px;
+}

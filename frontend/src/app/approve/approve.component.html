@@ -1,0 +1,7 @@
+<navbar></navbar>
+<div class="container">
+    <div *ngIf="posts_data.length < 1" style="font-size: 30px; color : #7f7f7f; padding-top: 30px;">There are no post to Aprrove. Create One</div>
+    <app-post *ngFor="let post of posts_data" [post]="post" [forApproval]="true">
+            
+    </app-post>
+</div>
